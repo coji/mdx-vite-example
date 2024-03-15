@@ -1,3 +1,3 @@
 export const Welcome = ({ children }: { children: React.ReactNode }) => {
-  <div>Welcome {children}!</div>;
+  return <div>Welcome {children}!</div>;
 };
